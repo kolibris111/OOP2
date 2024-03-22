@@ -70,13 +70,13 @@ public class Main {
         plant4.setLotyniskasPavadinimas("Celosia");
         plant4.setVienmetis(true);
         plant4.setZemynas("Babos sodas");
-        plant4.setSuaugusioAugaloAukstisMetrais(1);
+        plant4.setSuaugusioAugaloAukstisMetrais(0.5);
         plant4.setArValgomas(false);
 
         Plant plant5 = new Plant("Liepa", "Tilia", false, "Europa", 50, true);
         Plant plant6 = new Plant("Vyšnia", "Cerasus", false, "Rytų Azija", 6, true);
         Plant plant7 = new Plant("Agurkas", "Cucumis", true, "Europa", 3, true);
-        Plant plant8 = new Plant("Celiozija", "Celosia", true, "Babos sodas", 1, false);
+        Plant plant8 = new Plant("Celiozija", "Celosia", true, "Babos sodas", 0.5, false);
 
         ArrayList<Plant> plants = new ArrayList<>();
         plants.add(plant1);

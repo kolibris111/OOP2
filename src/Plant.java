@@ -5,7 +5,7 @@ public class Plant {
     private String lotyniskasPavadinimas;
     private boolean vienmetis;
     private String zemynas;
-    private int suaugusioAugaloAukstisMetrais;
+    private double suaugusioAugaloAukstisMetrais;
     private boolean arValgomas;
 
     //Tuscias konstruktorius//
@@ -13,7 +13,7 @@ public class Plant {
     }
 
     //Pilnas konstruktorius//
-    public Plant (String pavadinimas, String lotyniskasPavadinimas, boolean vienmetis, String zemynas, int suaugusioAugaloAukstisMetrais, boolean arValgomas) {
+    public Plant (String pavadinimas, String lotyniskasPavadinimas, boolean vienmetis, String zemynas, double suaugusioAugaloAukstisMetrais, boolean arValgomas) {
         this.pavadinimas = pavadinimas;
         this.lotyniskasPavadinimas = lotyniskasPavadinimas;
         this.vienmetis = vienmetis;
@@ -26,7 +26,7 @@ public class Plant {
     public void setLotyniskasPavadinimas(String lotyniskasPavadinimas) { this.lotyniskasPavadinimas = lotyniskasPavadinimas; }
     public void setVienmetis(boolean vienmetis) { this.vienmetis = vienmetis; }
     public void setZemynas(String zemynas) { this.zemynas = zemynas; }
-    public void setSuaugusioAugaloAukstisMetrais(int suaugusioAugaloAukstisMetrais) { this.suaugusioAugaloAukstisMetrais = suaugusioAugaloAukstisMetrais; }
+    public void setSuaugusioAugaloAukstisMetrais(double suaugusioAugaloAukstisMetrais) { this.suaugusioAugaloAukstisMetrais = suaugusioAugaloAukstisMetrais; }
     public void setArValgomas(boolean arValgomas) { this.arValgomas = arValgomas; }
 
     //Sukurti geterius//
@@ -42,7 +42,7 @@ public class Plant {
     public String getZemynas() {
         return this.zemynas;
     }
-    public int getSuaugusioAugaloAukstisMetrais() {
+    public double getSuaugusioAugaloAukstisMetrais() {
         return this.suaugusioAugaloAukstisMetrais;
     }
     public boolean getArValgomas() {
