@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Plant {
     private String pavadinimas;
     private String lotyniskasPavadinimas;
@@ -55,14 +57,5 @@ public class Plant {
                 this.zemynas + " " +
                 this.suaugusioAugaloAukstisMetrais + " " +
                 this.arValgomas;
-    }
-}
 
-
-
-
-
-
-
-
-}
+}   }

@@ -32,7 +32,7 @@ public class Main {
         books.add(book3);
 
         for (int i = 0; i < books.size(); i++) {
-            System.out.println(books.get(i).getTitle() + ", puslapių skaičius: " +  book1.getPages() + ", išleidimo metai: " + book1.getReleaseYear());
+            System.out.println(books.get(i).getTitle() + ", puslapių skaičius: " +  books.get(i).getPages() + ", išleidimo metai: " + books.get(i).getReleaseYear());
         }
 
         System.out.println("------ 2 UZDUOTIS -----");
@@ -47,10 +47,59 @@ public class Main {
 
         plant1.setPavadinimas("Liepa");
         plant1.setLotyniskasPavadinimas("Tilia");
-        plant1.setVienmetis(true);
+        plant1.setVienmetis(false);
         plant1.setZemynas("Europa");
         plant1.setSuaugusioAugaloAukstisMetrais(50);
-        plant1.setVienmetis(true);
+        plant1.setArValgomas(true);
+
+        plant2.setPavadinimas("Vyšnia");
+        plant2.setLotyniskasPavadinimas("Cerasus");
+        plant2.setVienmetis(false);
+        plant2.setZemynas("Rytų Azija");
+        plant2.setSuaugusioAugaloAukstisMetrais(6);
+        plant2.setArValgomas(true);
+
+        plant3.setPavadinimas("Agurkas");
+        plant3.setLotyniskasPavadinimas("Cucumis");
+        plant3.setVienmetis(true);
+        plant3.setZemynas("Europa");
+        plant3.setSuaugusioAugaloAukstisMetrais(3);
+        plant3.setArValgomas(true);
+
+        plant4.setPavadinimas("Celiozija");
+        plant4.setLotyniskasPavadinimas("Celosia");
+        plant4.setVienmetis(true);
+        plant4.setZemynas("Babos sodas");
+        plant4.setSuaugusioAugaloAukstisMetrais(1);
+        plant4.setArValgomas(false);
+
+        Plant plant5 = new Plant("Liepa", "Tilia", false, "Europa", 50, true);
+        Plant plant6 = new Plant("Vyšnia", "Cerasus", false, "Rytų Azija", 6, true);
+        Plant plant7 = new Plant("Agurkas", "Cucumis", true, "Europa", 3, true);
+        Plant plant8 = new Plant("Celiozija", "Celosia", true, "Babos sodas", 1, false);
+
+        ArrayList<Plant> plants = new ArrayList<>();
+        plants.add(plant1);
+        plants.add(plant2);
+        plants.add(plant3);
+        plants.add(plant4);
+
+        for (Plant plant : plants) {
+            System.out.println(plant.toString());
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
