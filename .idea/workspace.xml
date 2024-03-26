@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b848f9c-167e-48ea-bd52-ab94888eb435" name="Changes" comment="Uzduotys uzbaigtos">
+    <list default="true" id="2b848f9c-167e-48ea-bd52-ab94888eb435" name="Changes" comment="Uzduotys uzbaigtos.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,13 +83,22 @@
       <option name="project" value="LOCAL" />
       <updated>1711109876941</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Uzduotys uzbaigtos.">
+      <option name="closed" value="true" />
+      <created>1711359546677</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711359546677</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Uzduotys beveik baigtos" />
     <MESSAGE value="Uzduotys uzbaigtos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uzduotys uzbaigtos" />
+    <MESSAGE value="Uzduotys uzbaigtos." />
+    <option name="LAST_COMMIT_MESSAGE" value="Uzduotys uzbaigtos." />
   </component>
 </project>
